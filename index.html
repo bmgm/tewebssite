@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tejashree Electricals</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --text: #1E1E1E;
+      --background: #ffffff;
+      --accent: #14b8a6; /* teal color */
+      --light-border: #e5e7eb;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--background);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 1rem;
+    }
+
+    header {
+      padding: 3rem 1rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 600;
+    }
+
+    header p {
+      font-size: 1rem;
+      color: #6b7280;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      padding: 1rem 0;
+      border-top: 1px solid var(--light-border);
+      border-bottom: 1px solid var(--light-border);
+      margin-bottom: 2rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--text);
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--accent);
+    }
+
+    section {
+      max-width: 720px;
+      margin: 0 auto 3rem;
+      padding: 0 1rem;
+    }
+
+    section h2 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      border-left: 4px solid var(--accent);
+      padding-left: 0.75rem;
+    }
+
+    ul {
+      list-style: disc;
+      padding-left: 1.5rem;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+      object-fit: cover;
+    }
+
+    .contact-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .contact-list li {
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.875rem;
+      color: #9ca3af;
+      padding: 2rem 1rem 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tejashree Electricals</h1>
+    <p>Solar EPC Solutions Since 2017</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#pillars">Pillars</a>
+    <a href="#values">Values</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Tejashree Electricals, founded in 2017, is a forward-thinking solar energy solutions provider and registered electrical contractor based in Maharashtra. As a start-up driven by innovation and integrity, we take pride in executing solar projects of all sizes with a commitment to safety, timely delivery, and quality. Our team blends technical expertise with a customer-centric approach to ensure every project meets high standards from day one. With strong relationships across the industry and an adaptive mindset, we continually improve by staying ahead of market trends and technology developments.</p>
+  </section>
+
+  <section id="services">
+    <h2>What We Offer</h2>
+    <ul>
+      <li>Rooftop Solar Installation</li>
+      <li>Solar Plant Installation</li>
+      <li>Operation and Maintenance</li>
+      <li>Energy Management Consultancy</li>
+      <li>Liasoning Consultancy</li>
+      <li>Project Management Consultancy</li>
+    </ul>
+  </section>
+
+  <section id="pillars">
+    <h2>Our Pillars</h2>
+    <ul>
+      <li>Innovation that makes things happen</li>
+      <li>Value to every customer</li>
+      <li>Trust in people and their passion to lead</li>
+    </ul>
+  </section>
+
+  <section id="values">
+    <h2>Our Values</h2>
+    <p>Commitment and Dedication</p>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="images/photo1.jpg" alt="Project 1" />
+      <img src="images/photo2.jpg" alt="Project 2" />
+      <img src="images/photo3.jpg" alt="Project 3" />
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <ul class="contact-list">
+      <li><strong>Amit:</strong> 7249302929</li>
+      <li><strong>Mangesh:</strong> 9975518177</li>
+      <li><strong>Lata:</strong> 9922501847</li>
+      <li><strong>Manoj:</strong> 9561779747</li>
+      <li><strong>Email:</strong> tejashreeelectricals799@gmail.com</li>
+      <li><strong>Address:</strong> Sr No 52/3, Lane No. 3, “Jai Ganesh”, Maruti Nagar, Wadgaon Sheri, Pune- 411014</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Tejashree Electricals</p>
+  </footer>
+</body>
+</html>
